@@ -1,4 +1,8 @@
-#Author: Shadi Mohammadabadi
+"""
+Author: Shadi Mohammadabadi
+Date: January 20, 2024
+Description: This script extracts the name of drugs from go.drugbank.com, given a list of drug IDs
+"""
 
 from bs4 import BeautifulSoup
 import requests
